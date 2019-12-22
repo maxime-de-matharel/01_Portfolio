@@ -1,0 +1,586 @@
+
+body{
+  margin: 0;
+
+}
+
+main{
+  width: 100vw;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+button{
+  cursor: pointer;
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  width: 100vw;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #1D1D1D;
+  padding-bottom: 10px;
+
+}
+
+h3#h3-competences{
+  width: 110px;
+  border-bottom: 4px solid #C44E54;
+}
+
+h3#h3-softwares{
+  width: 90px;
+  border-bottom: 4px solid #C44E54;
+}
+
+h3#h3-softskills{
+  width: 95px;
+  border-bottom: 4px solid #C44E54;
+}
+
+h3#h3-introduction{
+  width: 115px;
+  border-bottom: 4px solid #C44E54;
+}
+
+h3#h3-studies{
+  width: 63px;
+  border-bottom: 4px solid #C44E54;
+}
+
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  line-height: 50px;
+
+}
+
+
+.body-text{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+
+/* HEADER */
+
+.Header {
+  width: 100vw;
+  height: 100px;
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+
+
+}
+
+.Header .Header-wrapper{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.Header .Header-wrapper .header-button-back-red{
+  width: 120px;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  border: none;
+  background-color: #C44E54;
+  font-size: 20px;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.Header .Header-wrapper .header-button{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-color: #FFF;
+  font-size: 20px;
+  color: #1D1D1D;
+  font-family: 'Montserrat', sans-serif;
+  align-self: flex-start;
+
+
+}
+
+.Header .Header-wrapper .header-button-red{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-color: #FFF;
+  font-size: 20px;
+  color: #C44E54;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+/* ACCROCHE I am a passionate designer + illustration */
+
+
+.about-screen-wrapper h4 {
+  font-family: 'Montserrat'sans-serif;
+  color: #1D1D1D;
+  width: 400px;
+  margin-right: 100px;
+  font-size: 40px;
+  line-height: 70px;
+
+  letter-spacing: 1pt;
+  font-size: 30pt;
+  margin-bottom: 15px;
+
+}
+
+
+#table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+#centeralign {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.typewrite{
+  color: #1D1D1D;
+  text-decoration: none;
+}
+
+.H1-Iam span{
+  color: #C44E54;
+
+}
+
+.about-screen-wrapper {
+  width: 100vw;
+  height: 28vw;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.about-screen-wrapper .illustration-about{
+
+}
+
+.about-screen-wrapper .illustration-about .illustration-about-picture{
+  width: 400px;
+  margin-left: 100px;
+  margin-right: 70px;
+
+
+}
+
+/* (END) ACCROCHE I am a passionate designer + illustration */
+
+
+
+/* scroll down mouse footer */
+
+.scroll-downs {
+  position: static;
+  top: 90%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width :34px;
+  height: 55px;
+  margin: auto;
+  margin-top: -60px;
+}
+
+.scroll-downs .mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #1D1D1D;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.scroll-downs .mousey .scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #1D1D1D;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+/* (END) scroll down mouse footer */
+
+/* Softwares */
+
+.software-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+
+
+}
+
+.software-wrapper .image-software{
+  weight: 100px;
+  height: 100px;
+
+}
+
+/* (END) Softwares */
+
+/* Soft skills */
+
+.text-left-wrapper{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  font-family: 'Montserrat'sans-serif;
+  font-size: 30px;
+
+}
+
+.text-left-wrapper .P-align-self{
+  align-self: flex-start;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.text-right-wrapper{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  font-family: 'Montserrat'sans-serif;
+  font-size: 30px;
+
+}
+
+.text-right-wrapper .P2-align-self{
+  font-family: 'Montserrat', sans-serif;
+  align-self: flex-end;
+}
+
+.softskills-wrapper .image-softskills img{
+  width: 400px;
+}
+
+.softskills-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.softskills-wrapper .text-left-wrapper .text-softskill{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.softskills-wrapper .text-right-wrapper .text-softskill{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* (END) Soft skills */
+
+/* Card-competences */
+
+.CARD-WRAPPER{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+
+}
+
+.CARD-WRAPPER .Smallcard-competence{
+  width: 30%;
+  height: 200px;
+  /*background-image:
+    url("02_Images copie/patern2.jpeg");*/
+  background-color: #F9F9F9;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
+
+
+}
+
+.CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper .title-smallcard{
+  font-family: 'Montserrat'sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1D1D1D;
+
+}
+
+.CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper .body-smallcard{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 30px;
+  color: #515151;
+
+
+
+}
+
+.CARD-WRAPPER .Smallcard-competence .text-smallcard-wrapper img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+
+}
+
+
+/* Card Studies  */
+
+.CARD-STUDIES{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background-color: #FFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.CARD-STUDIES .card-img-background{
+  width: 420px;
+  height: 400px;
+  background-color: #FFF;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CARD-STUDIES .card-wrapper .card-img-background .image-background{
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.CARD-STUDIES .card-wrapper .card-img-background .image-background img{
+  width: 250px;
+
+}
+
+.CARD-STUDIES .card-wrapper{
+  width: 1240px;
+  height: 400px;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  box-shadow: 0px 2px 10px rgba(29, 29, 29, 0.303049);
+
+}
+
+.CARD-STUDIES .card-wrapper .number-card{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #1D1D1D;
+  opacity: 0.8;
+  margin-top: -30px;
+
+}
+
+.CARD-STUDIES .card-wrapper .title-card {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #1D1D1D;
+  opacity: 1;
+
+}
+
+.CARD-STUDIES .card-wrapper .body-card{
+  width: 700px;
+  text-align: left;
+  margin-left: -800px;
+}
+
+.CARD-STUDIES .card-wrapper .body-text-card{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 200;
+}
+
+/* (END) Card Studie */
+
+/* FOOTER */
+
+.Footer {
+  width: 100vw;
+  height: 100px;
+  padding-bottom: 40px;
+  background-color: #C44E54;
+  position: static;
+  z-index: 1;
+
+
+}
+
+.Footer .Footer-wrapper{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.Footer .Footer-wrapper .footer-button-back-red{
+  width: 120px;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  border: none;
+  background-color: #FFF;
+  font-size: 20px;
+  color: #1D1D1D;
+  font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.Footer .Footer-wrapper .footer-button{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-color: #FFF;
+  font-size: 20px;
+  color: #1D1D1D;
+  font-family: 'Montserrat', sans-serif;
+  align-self: flex-start;
+
+
+}
+
+.Footer .Footer-wrapper .wrapper1{
+  margin-right: 0px;
+}
+
+.Footer .Footer-wrapper .footer-button-red{
+  width: 120px;
+  height: 30px;
+  justify-content: flex-start;
+  text-align: center;
+  border: none;
+  background-color: #C44E54;
+  font-size: 20px;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* (END) FOOTER */
