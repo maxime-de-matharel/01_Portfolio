@@ -13,6 +13,7 @@ button{
 
 
 
+
 }
 
 /* HEADER */
@@ -56,12 +57,18 @@ button{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
+  font-size: 18px;
   color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   align-self: flex-start;
 
 
+}
+
+
+.Header .Header-wrapper .header-button:hover{
+  color: #0F4C81;
 }
 
 .Header .Header-wrapper .header-button-red{
@@ -70,12 +77,15 @@ button{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
-  color: #C44E54;
+  font-size: 18px;
+  color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
 
 }
 
+.Header .Header-wrapper .header-button-red:hover{
+  color: #0F4C81;
+}
 /* HOMEPAGE */
 
 .homepage-illustration-citation-wrapper .homepage-screen-illustration{
@@ -99,17 +109,24 @@ button{
 
 
 .homepage-illustration-citation-wrapper .citation .homepage-button{
-  width: 100px;
+  width: 130px;
   height: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  font-weight: bold;
   border: none;
-  border-radius: 10px;
-  background-color: #C44E54;
-  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #0F4C81;
+  color: #0F4C81;
 
 
+}
+
+.homepage-illustration-citation-wrapper .citation .homepage-button:hover{
+  background-color: #0F4C81;
+  color: #fff;
+  border: 2px solid;
+  border-color: #0F4C81;
+  font-weight: bold;
 }
 
 
@@ -126,6 +143,16 @@ button{
   z-index: 0;
   margin-top: 260px;
   overflow: hidden;
+}
+
+.homepage-illustration-citation-wrapper .logo-socials{
+  width: 40px;
+  height: auto;
+  position: fixed;
+  z-index: 3;
+  right: 0;
+
+
 }
 
 
@@ -220,8 +247,8 @@ button{
     font-size: 30px;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 4px solid #C44E54;
-    width: 250px;
+    border-bottom: 4px solid #0F4C81;
+    width: 240px;
 
 
 
@@ -312,7 +339,7 @@ button{
   margin-left: 100px;
   margin-top: 50px;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 900;
   color: #1D1D1D;
   opacity: 0.8;
@@ -325,7 +352,7 @@ button{
   margin-left: 100px;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 900;
   color: #1D1D1D;
   opacity: 1;
@@ -339,14 +366,27 @@ button{
   margin-left: -800px;
 }
 
-.CARD-STUDIES .card-wrapper .body-text-card{
+.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card{
   font-family: 'Montserrat', sans-serif;
   margin-left: 100px;
   margin-right: 100px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 50px;
-  font-weight: 200;
+  font-weight: 300;
+
+
 }
+
+.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card span{
+  font-weight: 400;
+}
+
+.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card a{
+  color: #0F4C81;
+
+
+}
+
 
 /* (END) Card Studie */
 
@@ -358,8 +398,8 @@ button{
   font-size: 30px;
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
-  border-bottom: 4px solid #C44E54;
-  width: 155px;
+  border-bottom: 4px solid #0F4C81;
+  width: 160px;
   margin-bottom: 40px;
 
 }
@@ -413,6 +453,10 @@ button{
   width: 250px;
   height: 200px;
   margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
 
 
 }
@@ -423,13 +467,15 @@ button{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  bottom: 0;
+
 
 }
 
 .card-medium .text-card-medium-wrapper .text-card-medium .info-card-medium span{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+
 
 
 }
@@ -445,7 +491,7 @@ button{
 }
 
 .card-medium .text-card-medium-wrapper .text-card-medium{
-
+  height: 250px;
   line-height: 30px;
   display: flex;
   flex-direction: column;
@@ -471,27 +517,13 @@ button{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 
 .Footer {
   width: 100vw;
   height: 100px;
   padding-bottom: 40px;
-  background-color: #C44E54;
+  background-color: #0F4C81;
   position: static;
   z-index: 1;
 
@@ -518,10 +550,9 @@ button{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
+  font-size: 18px;
   color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
-
 
 
 }
@@ -532,7 +563,7 @@ button{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
+  font-size: 18px;
   color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
   align-self: flex-start;
@@ -550,8 +581,8 @@ button{
   justify-content: flex-start;
   text-align: center;
   border: none;
-  background-color: #C44E54;
-  font-size: 20px;
+  background-color: #0F4C81;
+  font-size: 18px;
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
 

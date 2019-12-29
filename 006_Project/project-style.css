@@ -11,6 +11,7 @@ button{
 
 }
 
+
 h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -24,7 +25,7 @@ h3{
 
 h3#h3-project{
   width: 80px;
-  border-bottom: 4px solid #C44E54;
+  border-bottom: 4px solid #0F4C81;
 }
 
 /* HEADER */
@@ -63,8 +64,8 @@ h3#h3-project{
   padding-bottom: 30px;
   text-align: center;
   border: none;
-  background-color: #C44E54;
-  font-size: 20px;
+  background-color: #0F4C81;
+  font-size: 18px;
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
 
@@ -78,12 +79,23 @@ h3#h3-project{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
+  font-size: 18px;
   color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
   align-self: flex-start;
+  font-weight: bold;
 
 
+}
+
+.Header .Header-wrapper .header-button:hover{
+  color: #0F4C81;
+  height: 100px;
+}
+
+.Header .Header-wrapper .header-button-red:hover{
+  color: #0F4C81;
+  height: 100px;
 }
 
 .Header .Header-wrapper .header-button-red{
@@ -92,8 +104,8 @@ h3#h3-project{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
-  color: #C44E54;
+  font-size: 18px;
+  color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -191,7 +203,7 @@ h3#h3-project{
   margin-left: 100px;
   margin-top: 50px;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 900;
   color: #1D1D1D;
   opacity: 0.8;
@@ -204,7 +216,7 @@ h3#h3-project{
   margin-left: 100px;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 900;
   color: #1D1D1D;
   opacity: 1;
@@ -221,9 +233,17 @@ h3#h3-project{
   font-family: 'Montserrat', sans-serif;
   margin-left: 100px;
   margin-right: 100px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 50px;
   font-weight: 200;
+}
+
+.CARD-STUDIES .card-wrapper .image-text-wrapper .body-text-card span{
+  font-weight: 400;
+}
+
+.CARD-STUDIES .card-wrapper .body-text-card a{
+  color: #0F4C81;
 }
 
 /* (END) Card Studie */
@@ -234,7 +254,7 @@ h3#h3-project{
   width: 100vw;
   height: 100px;
   padding-bottom: 40px;
-  background-color: #C44E54;
+  background-color: #0F4C81;
   position: static;
   z-index: 1;
 
@@ -261,7 +281,7 @@ h3#h3-project{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
+  font-size: 18px;
   color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
 
@@ -275,7 +295,7 @@ h3#h3-project{
   text-align: center;
   border: none;
   background-color: #FFF;
-  font-size: 20px;
+  font-size: 18px;
   color: #1D1D1D;
   font-family: 'Montserrat', sans-serif;
   align-self: flex-start;
@@ -293,8 +313,8 @@ h3#h3-project{
   justify-content: flex-start;
   text-align: center;
   border: none;
-  background-color: #C44E54;
-  font-size: 20px;
+  background-color: #0F4C81;
+  font-size: 18px;
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
 
